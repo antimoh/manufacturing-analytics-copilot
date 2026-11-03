@@ -1,1 +1,254 @@
-IyBNYW51ZmFjdHVyaW5nIEFuYWx5dGljcyBDb3BpbG90IPCfj60KCkEgbmF0dXJhbCBsYW5ndWFnZSBpbnRlcmZhY2UgdGhhdCBsZXRzIHBsYW50IGVuZ2luZWVycyBxdWVyeSBtYW51ZmFjdHVyaW5nIHNlbnNvciBkYXRhIGFuZCBwcmVkaWN0aXZlIG1haW50ZW5hbmNlIGluc2lnaHRzIHVzaW5nIHBsYWluIEVuZ2xpc2gsIHdpdGhvdXQgd3JpdGluZyBTUUwuCgpbIVtTdHJlYW1saXQgQXBwXShodHRwczovL3N0YXRpYy5zdHJlYW1saXQuaW8vYmFkZ2VzL3N0cmVhbWxpdF9iYWRnZV9ibGFja193aGl0ZS5zdmcpXShodHRwczovL21mZy1hbmFseXRpY3MtY29waWxvdC5zdHJlYW1saXQuYXBwKQpbIVtQeXRob24gMy4xMCtdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvcHl0aG9uLTMuMTArLWJsdWUuc3ZnKV0oaHR0cHM6Ly93d3cucHl0aG9uLm9yZy9kb3dubG9hZHMvKQpbIVtMaWNlbnNlOiBNSVRdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1NSVQteWVsbG93LnN2ZyldKGh0dHBzOi8vb3BlbnNvdXJjZS5vcmcvbGljZW5zZXMvTUlUKQoKIyMg8J+OryBXaGF0IEl0IERvZXMKCkFzayBxdWVzdGlvbnMgbGlrZToKLSAiV2hhdCBpcyB0aGUgb3ZlcmFsbCBtYWNoaW5lIGZhaWx1cmUgcmF0ZT8iCi0gIldoaWNoIG1hY2hpbmUgdHlwZSBmYWlscyBtb3N0IG9mdGVuPyIKLSAiSG93IG1hbnkgbWFjaGluZXMgbmVlZCBpbW1lZGlhdGUgbWFpbnRlbmFuY2U/IgotICJXaGF0IGFyZSB0aGUgbW9zdCBjb21tb24gZmFpbHVyZSBtb2Rlcz8iCi0gIkNvbXBhcmUgYXZlcmFnZSB0b3JxdWUgYmV0d2VlbiBmYWlsZWQgYW5kIHdvcmtpbmcgbWFjaGluZXMiCgpUaGUgY29waWxvdDoKMS4gKipVbmRlcnN0YW5kcyBncmVldGluZ3MqKiDigJQgcmVzcG9uZHMgaGVscGZ1bGx5IHRvICJoaSIgb3IgIndoYXQgaXMgdGhpcz8iCjIuICoqQ29udmVydHMgcXVlc3Rpb25zIHRvIFNRTCoqIHVzaW5nIGFuIExMTSB3aXRoIHNlbWFudGljIGNvbnRleHQKMy4gKipWYWxpZGF0ZXMgU1FMIGZvciBzYWZldHkqKiDigJQgYmxvY2tzIGFsbCBETUwgb3BlcmF0aW9ucyBhbmQgaW5qZWN0aW9uIGF0dGVtcHRzCjQuICoqRXhlY3V0ZXMgYWdhaW5zdCBEdWNrREIqKiDigJQgZmFzdCwgaW4tcHJvY2VzcyBhbmFseXRpY3MKNS4gKipFeHBsYWlucyByZXN1bHRzKiogaW4gcGxhaW4gRW5nbGlzaAo2LiAqKkF1dG8tZ2VuZXJhdGVzIGNoYXJ0cyoqIOKAlCBtZXRyaWMgY2FyZHMsIGJhciBjaGFydHMsIHNjYXR0ZXIgcGxvdHMsIG9yIHRhYmxlcwoKIyMg8J+Pl++4jyBBcmNoaXRlY3R1cmUKCmBgYApVc2VyIHF1ZXN0aW9uCiAgICDilIIKICAgIOKWvArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCICBHcmVldGluZyBIYW5kbGVyICAg4pSCIOKUgOKUgOKUgCBJbnN0YW50IHJlc3BvbnNlIGZvciAiaGkiLCAiaGVscCIsIGV0Yy4gKDAgdG9rZW5zKQrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgIOKUggogICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgU2VtYW50aWMgTGF5ZXIgICAgIOKUgiDilIDilIDilIAgU2NoZW1hICsgR2xvc3NhcnkgKyBFeGFtcGxlcyArIFNhbXBsZSBEYXRhCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAg4pSCCiAgICDilrwK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgICBQcm9tcHQgRW5naW5lICAgICAg4pSCIOKUgOKUgOKUgCBDb25zdHJ1Y3RzIFNRTCBnZW5lcmF0aW9uIHByb21wdArilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgIOKUggogICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgTExNIENsaWVudCAgICAgICAgIOKUgiDilIDilIDilIAgR3JvcSAvIEJlZHJvY2sgLyBPbGxhbWEgKGZhY3RvcnkgcGF0dGVybikK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICDilIIKICAgIOKWvArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCICAgU1FMIFZhbGlkYXRvciAgICAgIOKUgiDilIDilIDilIAgQmxvY2tzIERNTCwgaW5qZWN0aW9uLCB1bmtub3duIHRhYmxlcwrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgIOKUggogICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgIFF1ZXJ5IEV4ZWN1dG9yICAgICAg4pSCIOKUgOKUgOKUgCBEdWNrREIgZXhlY3V0aW9uCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAg4pSCCiAgICDilrwK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgQ2hhcnQgU2VsZWN0b3IgICAgICDilIIg4pSA4pSA4pSAIEF1dG8tc2VsZWN0cyBNRVRSSUMvQkFSL1NDQVRURVIvVEFCTEUK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICDilIIKICAgIOKWvApSZXNwb25zZSB3aXRoIGV4cGxhbmF0aW9uICsgY2hhcnQgKyBTUUwKYGBgCgojIyMgRGVzaWduIFByaW5jaXBsZXMKCjEuICoqRGF0YSBlbmdpbmVlcmluZyBjb21lcyBmaXJzdCoqIOKAlCBMTE0gc2l0cyBvbiB0b3Agb2YgYSB3ZWxsLW1vZGVsZWQgZGF0YSBsYXllciwgbm90IHJhdyB0YWJsZXMKMi4gKipUcmFuc3BhcmVuY3kgYnkgZGVmYXVsdCoqIOKAlCBBbHdheXMgc2hvdyB0aGUgZ2VuZXJhdGVkIFNRTCBhbG9uZ3NpZGUgdGhlIGFuc3dlcgozLiAqKkZhaWwgc2FmZWx5Kiog4oCUIFdoZW4gdGhlIExMTSBwcm9kdWNlcyBiYWQgU1FMLCByZWplY3QgaXQgZ3JhY2VmdWxseQo0LiAqKlNjb3BlIGVuZm9yY2VtZW50Kiog4oCUIE9ubHkgYW5zd2VyIHF1ZXN0aW9ucyBhYm91dCBhdmFpbGFibGUgZGF0YSwgcmVmdXNlIHNwZWN1bGF0aW9uCjUuICoqU2VwYXJhdGlvbiBvZiBjb25jZXJucyoqIOKAlCBTUUwgZ2VuZXJhdGlvbiBhbmQgcmVzdWx0IGV4cGxhbmF0aW9uIGFyZSBzZXBhcmF0ZSBMTE0gY2FsbHMKNi4gKipCZXN0IHByYWN0aWNlcyBpbXBsZW1lbnRlZCoqIOKAlCBTZW1hbnRpYyBsYXllciBiYXNlZCBvbiBpbmR1c3RyeSByZXNlYXJjaCAoW2RidF0oaHR0cHM6Ly9kb2NzLmdldGRidC5jb20vYmxvZy9zZW1hbnRpYy1sYXllci12cy10ZXh0LXRvLXNxbC0yMDI2KSwgW01lZGl1bV0oaHR0cHM6Ly9tZWRpdW0uY29tL0B2aS5oYS5lbmdyL2JyaWRnaW5nLW5hdHVyYWwtbGFuZ3VhZ2UtYW5kLWRhdGFiYXNlcy1iZXN0LXByYWN0aWNlcy1mb3ItbGxtLWdlbmVyYXRlZC1zcWwtZmNiYTA0NDlkNGU1KSkKCiMjIPCfk4ogRGF0YSBTb3VyY2UKCkJ1aWx0IG9uIHRoZSBbVUNJIEFJNEkgMjAyMCBQcmVkaWN0aXZlIE1haW50ZW5hbmNlIERhdGFzZXRdKGh0dHBzOi8vYXJjaGl2ZS5pY3MudWNpLmVkdS9kYXRhc2V0LzYwMS9haTRpKzIwMjArcHJlZGljdGl2ZSttYWludGVuYW5jZStkYXRhc2V0KToKCnwgTWV0cmljIHwgVmFsdWUgfAp8LS0tLS0tLS18LS0tLS0tLXwKfCBUb3RhbCBzZW5zb3IgcmVhZGluZ3MgfCAxMCwwMDAgfAp8IE1hY2hpbmUgZmFpbHVyZXMgfCAzMzkgKDMuMzklKSB8CnwgTWFjaGluZSB0eXBlcyB8IDMgKEgsIE0sIEwpIHwKfCBGYWlsdXJlIG1vZGVzIHwgNSAoVFdGLCBIREYsIFBXRiwgT1NGLCBSTkYpIHwKCiMjIyBGYWlsdXJlIFR5cGVzIEV4cGxhaW5lZAoKfCBDb2RlIHwgTmFtZSB8IFRyaWdnZXIgQ29uZGl0aW9uIHwgQ291bnQgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS18CnwgSERGIHwgSGVhdCBEaXNzaXBhdGlvbiBGYWlsdXJlIHwgdGVtcF9kaWZmIDwgOC42SyBBTkQgc3BlZWQgPCAxMzgwIFJQTSB8IDExNSB8CnwgT1NGIHwgT3ZlcnN0cmFpbiBGYWlsdXJlIHwgdG9ycXVlIMOXIHRvb2xfd2VhciA+IHRocmVzaG9sZCB8IDk4IHwKfCBQV0YgfCBQb3dlciBGYWlsdXJlIHwgcG93ZXIgPCAzNTAwVyBPUiA+IDkwMDBXIHwgOTUgfAp8IFRXRiB8IFRvb2wgV2VhciBGYWlsdXJlIHwgdG9vbF93ZWFyID4gMjAwLTI0MCBtaW4gfCA1MSB8CnwgUk5GIHwgUmFuZG9tIEZhaWx1cmUgfCAwLjElIGJhc2VsaW5lIHByb2JhYmlsaXR5IHwgNSB8CgojIyMgRGF0YSBNb2RlbAoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgIGRpbV9tYWNoaW5lX3R5cGVzICDilIIg4pSA4pSA4pSAIDMgcm93cyAoSCwgTSwgTCkgd2l0aCBwcmUtYWdncmVnYXRlZCBtZXRyaWNzCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICAgICDilIIKICAgICAgICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgIGZjdF9mYWlsdXJlX2V2ZW50cyDilIIg4pSA4pSA4pSAIDEwLDAwMCByb3dzIChQUklNQVJZIERBVEFTRVQpCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICAgICDilIIKICAgIOKUjOKUgOKUgOKUgOKUgOKUtOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkAogICAg4pa8ICAgICAgICAg4pa8ICAgICAgICAgICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBzdW1tYXJ5IOKUgiDilIIgcGVyZm9ybSDilIIg4pSCIHByZWRpY3RpdmVfaW5kaWNhdG9yc+KUggrilIIgMjEgcm93cyDilIIg4pSCIDEyIHJvd3Mg4pSCIOKUgiAxMCwwMDAgcm93cyAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCiMjIPCfm6DvuI8gVGVjaG5vbG9neSBTdGFjawoKfCBMYXllciB8IFRlY2hub2xvZ3kgfCBSYXRpb25hbGUgfAp8LS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBMTE0gSW5mZXJlbmNlIHwgR3JvcSBBUEkgfCBGcmVlIHRpZXIsIDFLIFJQTSwgfjEwMDAgdG9rZW5zL3NlYyB8CnwgRGVmYXVsdCBNb2RlbCB8IGBvcGVuYWkvZ3B0LW9zcy0yMGJgIHwgR1BULU9TUyBtb2RlbCwgZnJlZSB0aWVyLCAxMDAwIHRvay9zZWMgfAp8IFByb3ZpZGVyIEFic3RyYWN0aW9uIHwgRmFjdG9yeSBwYXR0ZXJuIHwgU3VwcG9ydHMgR3JvcSAvIEJlZHJvY2sgLyBPbGxhbWEgdmlhIGVudiB2YXIgfAp8IExvY2FsIERhdGEgUXVlcnkgfCBEdWNrREIgfCBGYXN0LCBzZXJ2ZXJsZXNzLCBubyBpbmZyYXN0cnVjdHVyZSB8CnwgT3JjaGVzdHJhdGlvbiB8IEN1c3RvbSAobm8gTGFuZ0NoYWluKSB8IFRyYW5zcGFyZW50LCB0ZXN0YWJsZSwgYXVkaXRhYmxlIHwKfCBGcm9udGVuZCB8IFN0cmVhbWxpdCB8IFJhcGlkIHByb3RvdHlwaW5nLCBjb25zaXN0ZW50IHdpdGggUHJvamVjdCAxIHwKfCBWaXN1YWxpemF0aW9uIHwgUGxvdGx5IHwgSW50ZXJhY3RpdmUgY2hhcnRzLCBjb25zaXN0ZW50IHdpdGggUHJvamVjdCAxIHwKfCBUZXN0aW5nIHwgcHl0ZXN0IHwgODUrIHRlc3RzIHBhc3NpbmcgfAoKKipXaHkgbm8gTGFuZ0NoYWluPyoqIEJ1aWxkaW5nIG9yY2hlc3RyYXRpb24gZnJvbSBzY3JhdGNoIG1ha2VzIHRleHQtdG8tU1FMIHRyYW5zcGFyZW50IGFuZCBhdWRpdGFibGUuIEV2ZXJ5IGNvbXBvbmVudCBpcyB0ZXN0YWJsZSBpbiBpc29sYXRpb24uCgojIyDwn5qAIFF1aWNrIFN0YXJ0CgojIyMgMS4gQ2xvbmUgYW5kIHNldHVwCgpgYGBiYXNoCmdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vYW50aW1vaC9tYW51ZmFjdHVyaW5nLWFuYWx5dGljcy1jb3BpbG90LmdpdApjZCBtYW51ZmFjdHVyaW5nLWFuYWx5dGljcy1jb3BpbG90CnB5dGhvbiAtbSB2ZW52IC52ZW52CnNvdXJjZSAudmVudi9iaW4vYWN0aXZhdGUgICMgV2luZG93czogLnZlbnZcU2NyaXB0c1xhY3RpdmF0ZQpwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CmBgYAoKIyMjIDIuIENvbmZpZ3VyZSBBUEkga2V5CgpgYGBiYXNoCmNwIC5lbnYuZXhhbXBsZSAuZW52CiMgRWRpdCAuZW52IGFuZCBhZGQgeW91ciBHUk9RX0FQSV9LRVkKIyBHZXQgZnJlZSBrZXkgYXQ6IGh0dHBzOi8vY29uc29sZS5ncm9xLmNvbS9rZXlzCmBgYAoKIyMjIDMuIFJ1biB0aGUgYXBwCgpgYGBiYXNoCnN0cmVhbWxpdCBydW4gYXBwLnB5CmBgYAoKVGhlIGFwcCBvcGVucyBhdCBgaHR0cDovL2xvY2FsaG9zdDo4NTAxYAoKIyMg8J+SoSBGZWF0dXJlcwoKIyMjIEludGVsbGlnZW50IEdyZWV0aW5nIEhhbmRsaW5nCgpUaGUgY29waWxvdCByZXNwb25kcyBoZWxwZnVsbHkgdG8gZ3JlZXRpbmdzIHdpdGhvdXQgY2FsbGluZyB0aGUgTExNICgwIHRva2VucywgaW5zdGFudCByZXNwb25zZSk6CgpgYGAKVXNlcjogaGkKQm90OiDwn5GLIEhpISBJJ20gdGhlIE1hbnVmYWN0dXJpbmcgQW5hbHl0aWNzIENvcGlsb3QuCiAgICAgSSBjYW4gaGVscCB5b3UgZXhwbG9yZSBtYW51ZmFjdHVyaW5nIHNlbnNvciBkYXRhLi4uCiAgICAgVHJ5OiAiV2hhdCBpcyB0aGUgb3ZlcmFsbCBmYWlsdXJlIHJhdGU/IgpgYGAKCiMjIyBTZW1hbnRpYyBMYXllciB3aXRoIEJlc3QgUHJhY3RpY2VzCgpCYXNlZCBvbiBpbmR1c3RyeSByZXNlYXJjaCwgdGhlIHNlbWFudGljIGxheWVyIGluY2x1ZGVzOgoKfCBGZWF0dXJlIHwgRGVzY3JpcHRpb24gfCBDb3VudCB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tfAp8IFNjaGVtYSBkZWZpbml0aW9ucyB8IFRhYmxlL2NvbHVtbiBkZXNjcmlwdGlvbnMgd2l0aCBkYXRhIHR5cGVzIHwgODUgY29sdW1ucyB8CnwgU2FtcGxlIGRhdGEgfCAyLTMgcm93cyBwZXIgdGFibGUgZm9yIGdyb3VuZGluZyB8IDUgdGFibGVzIHwKfCBCdXNpbmVzcyBnbG9zc2FyeSB8IFRlcm1zICsgc3lub255bXMgZm9yIHF1ZXJ5IHVuZGVyc3RhbmRpbmcgfCAzMSB0ZXJtcyB8CnwgRmV3LXNob3QgZXhhbXBsZXMgfCBRdWVzdGlvbiDihpIgU1FMIHBhaXJzIHwgMjYgZXhhbXBsZXMgfAp8IENhdGVnb3JpY2FsIHZhbHVlcyB8IEV4cGxpY2l0IGVudW0gZG9jdW1lbnRhdGlvbiB8IDggZmllbGRzIHwKCiMjIyBBdXRvLUNoYXJ0IFNlbGVjdGlvbgoKVGhlIHN5c3RlbSBhdXRvbWF0aWNhbGx5IHNlbGVjdHMgdGhlIGJlc3QgdmlzdWFsaXphdGlvbjoKCnwgUmVzdWx0IFNoYXBlIHwgQ2hhcnQgVHlwZSB8CnwtLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18CnwgMSByb3csIDEgbnVtZXJpYyBjb2x1bW4gfCBNZXRyaWMgY2FyZCAoYmlnIG51bWJlcikgfAp8IENhdGVnb3JpY2FsICsgbnVtZXJpYyB8IEJhciBjaGFydCB8CnwgMiBudW1lcmljIGNvbHVtbnMgfCBTY2F0dGVyIHBsb3QgfAp8IE11bHRpcGxlIHJvd3MvY29sdW1ucyB8IERhdGEgdGFibGUgfAoKIyMjIFNRTCBTYWZldHkgVmFsaWRhdGlvbgoKVGhlIHZhbGlkYXRvciBibG9ja3M6Ci0g4pyFIEFsbCBETUwgKElOU0VSVCwgVVBEQVRFLCBERUxFVEUsIERST1AsIFRSVU5DQVRFLCBBTFRFUikKLSDinIUgU1FMIGluamVjdGlvbiBhdHRlbXB0cyAoY29tbWVudHMsIFVOSU9OLCBzdGFja2VkIHF1ZXJpZXMpCi0g4pyFIFVua25vd24gdGFibGUgcmVmZXJlbmNlcwotIOKchSBUaW1pbmcgYXR0YWNrcyAoU0xFRVAsIEJFTkNITUFSSywgV0FJVEZPUikKLSDinIUgU3lzdGVtIGFjY2VzcyAoSU5UTyBPVVRGSUxFLCBMT0FEX0ZJTEUpCgpPbmx5IGBTRUxFQ1RgIHF1ZXJpZXMgYWdhaW5zdCA1IGFsbG93ZWQgdGFibGVzIGFyZSBwZXJtaXR0ZWQuCgojIyDwn5SnIENvbmZpZ3VyYXRpb24KCiMjIyBFbnZpcm9ubWVudCBWYXJpYWJsZXMKCmBgYGJhc2gKIyBSZXF1aXJlZApHUk9RX0FQSV9LRVk9Z3NrXy4uLiAgICAgICAgICAjIEdldCBmcm9tIGh0dHBzOi8vY29uc29sZS5ncm9xLmNvbS9rZXlzCgojIE9wdGlvbmFsCkxMTV9QUk9WSURFUj1ncm9xICAgICAgICAgICAgICMgZ3JvcSB8IGJlZHJvY2sgfCBvbGxhbWEKR1JPUV9NT0RFTD1vcGVuYWkvZ3B0LW9zcy0yMGIgIyBPdmVycmlkZSBkZWZhdWx0IG1vZGVsCgojIEZvciBBV1MgQmVkcm9jawpBV1NfUkVHSU9OPXVzLWVhc3QtMQojIChSZXF1aXJlcyBBV1MgY3JlZGVudGlhbHMgY29uZmlndXJlZCkKCiMgRm9yIE9sbGFtYSAobG9jYWwpCk9MTEFNQV9IT1NUPWh0dHA6Ly9sb2NhbGhvc3Q6MTE0MzQKT0xMQU1BX01PREVMPWxsYW1hMy4yCmBgYAoKIyMjIEdyb3EgRnJlZSBUaWVyIE1vZGVscyAoTm92ZW1iZXIgMjAyNikKCnwgTW9kZWwgfCBTcGVlZCB8IFByaWNlIChwZXIgMU0gdG9rZW5zKSB8IENvbnRleHQgfAp8LS0tLS0tLXwtLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tfAp8IGBvcGVuYWkvZ3B0LW9zcy0yMGJgIHwgMTAwMCB0b2svcyB8ICQwLjA3NSBpbiAvICQwLjMwIG91dCB8IDEzMUsgfAp8IGBvcGVuYWkvZ3B0LW9zcy0xMjBiYCB8IDUwMCB0b2svcyB8ICQwLjE1IGluIC8gJDAuNjAgb3V0IHwgMTMxSyB8CnwgYHF3ZW4vcXdlbjMuOC0yN2JgIHwgNDUwIHRvay9zIHwgJDAuODAgaW4gLyAkNC4wMCBvdXQgfCAxMzFLIHwKCioqTm90ZToqKiBMbGFtYSBtb2RlbHMgKGBsbGFtYS0zLjMtNzBiLXZlcnNhdGlsZWAsIGBsbGFtYS0zLjEtOGItaW5zdGFudGApIGFyZSBub3cgRW50ZXJwcmlzZS1vbmx5LgoKIyMg8J+nqiBUZXN0aW5nCgpgYGBiYXNoCiMgUnVuIGFsbCB0ZXN0cwpweXRlc3QgdGVzdHMvIC12CgojIFJ1biBzcGVjaWZpYyB0ZXN0IGZpbGUKcHl0ZXN0IHRlc3RzL3Rlc3Rfc3FsX3ZhbGlkYXRvci5weSAtdgoKIyBSdW4gd2l0aCBjb3ZlcmFnZQpweXRlc3QgdGVzdHMvIC0tY292PWNvcGlsb3QgLS1jb3YtcmVwb3J0PWh0bWwKYGBgCgoqKlRlc3QgQ292ZXJhZ2U6KioKLSBgdGVzdF9zcWxfdmFsaWRhdG9yLnB5YCDigJQgNDMgdGVzdHMgKERNTCBibG9ja2luZywgaW5qZWN0aW9uIHByZXZlbnRpb24pCi0gYHRlc3RfcXVlcnlfZXhlY3V0b3IucHlgIOKAlCAyMiB0ZXN0cyAoa25vd24gZGF0YXNldCB2YWx1ZXMsIGVkZ2UgY2FzZXMpCi0gYHRlc3RfY2hhcnRfc2VsZWN0b3IucHlgIOKAlCAyMCB0ZXN0cyAodHlwZSBpbmZlcmVuY2UsIHRydW5jYXRpb24pCgojIyMgR29sZGVuIERhdGFzZXQgRXZhbHVhdGlvbgoKVGhlIHByb2plY3QgaW5jbHVkZXMgYSBjdXJhdGVkIGdvbGRlbiBkYXRhc2V0IGZvciBtZWFzdXJpbmcgdGV4dC10by1TUUwgYWNjdXJhY3k6CgpgYGBiYXNoCiMgUnVuIGZ1bGwgZXZhbHVhdGlvbiAoZ2VuZXJhdGVzIHJlcG9ydCkKcHl0aG9uIHRlc3RzL3Rlc3RfZ29sZGVuX2V2YWx1YXRpb24ucHkKCiMgUnVuIGFzIHB5dGVzdApweXRlc3QgdGVzdHMvdGVzdF9nb2xkZW5fZXZhbHVhdGlvbi5weSAtdgoKIyBRdWljayB0ZXN0IChmaXJzdCA1IGNhc2VzKQpweXRob24gdGVzdHMvcnVuX3F1aWNrX2V2YWwucHkKYGBgCgoqKkdvbGRlbiBEYXRhc2V0OioqIDM3IHRlc3QgY2FzZXMgYWNyb3NzIDEwIGNhdGVnb3JpZXM6Cnwg Q2F0ZWdvcnkgfCBUZXN0cyB8IERlc2NyaXB0aW9uIHwKfC0tLS0tLS0tLS18LS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGRhdGFzZXRfb3ZlcnZpZXcgfCAzIHwgIkhvdyBsYXJnZSBpcyB0aGUgZGF0YXNldD8iIHwKfCBiYXNpY19jb3VudCB8IDQgfCAiSG93IG1hbnkgZmFpbHVyZXM/IiB8CnwgYmFzaWNfYWdncmVnYXRpb24gfCAyIHwgIldoYXQgaXMgdGhlIGZhaWx1cmUgcmF0ZT8iIHwKfCBjb21wYXJpc29uIHwgNCB8ICJXaGljaCBtYWNoaW5lIHR5cGUgZmFpbHMgbW9zdD8iIHwKfCBmYWlsdXJlX21vZGUgfCA3IHwgIkhvdyBtYW55IEhERiBmYWlsdXJlcz8iIHwKfCBtYWludGVuYW5jZSB8IDMgfCAiSG93IG1hbnkgbmVlZCBpbW1lZGlhdGUgbWFpbnRlbmFuY2U/IiB8CnwgcmlzayB8IDIgfCAiV2hhdCBpcyB0aGUgZmFpbHVyZSByYXRlIGZvciBoaWdoIHJpc2s/IiB8Cnwgc2Vuc29yX3N0YXRzIHwgNSB8ICJXaGF0IGlzIHRoZSBhdmVyYWdlIHRvcnF1ZT8iIHwKfCBncmVldGluZyB8IDIgfCAiaGkiLCAiaGVsbG8sIHdoYXQgY2FuIHlvdSBkbz8iIHwKfCBzaG91bGRfcmVmdXNlIHwgMiB8IE91dC1vZi1zY29wZSBxdWVzdGlvbnMgfAoKKipFdmFsdWF0aW9uIE1ldHJpY3M6KioKLSAqKkV4ZWN1dGlvbiBBY2N1cmFjeSoqOiBEb2VzIHRoZSBTUUwgcmV0dXJuIHRoZSBjb3JyZWN0IHJlc3VsdD8KLSAqKlZhbGlkIFNRTCBSYXRlKio6IERvZXMgdGhlIFNRTCBwYXJzZSBhbmQgZXhlY3V0ZT8KLSAqKkdyZWV0aW5nIERldGVjdGlvbioqOiBBcmUgZ3JlZXRpbmdzIGhhbmRsZWQgd2l0aG91dCBMTE0gY2FsbHM/Ci0gKipSZWZ1c2FsIFJhdGUqKjogQXJlIG91dC1vZi1zY29wZSBxdWVzdGlvbnMgcHJvcGVybHkgcmVmdXNlZD8KCiMjIPCfk4EgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYAptYW51ZmFjdHVyaW5nLWFuYWx5dGljcy1jb3BpbG90LwoK4pSc4pSA4pSAIGNvcGlsb3QvICAgICAgICAgICAgICAgICAgICAgIyBDb3JlIGxpYnJhcnkK4pSCICAg4pSc4pSA4pSAIF9faW5pdF9fLnB5CuKUgiAgIOKUnOKUgOKUgCBzZW1hbnRpY19sYXllci5weSAgICAgICAjIFNjaGVtYSArIGdsb3NzYXJ5ICsgZmV3LXNob3QgZXhhbXBsZXMK4pSCICAg4pSc4pSA4pSAIHByb21wdF9lbmdpbmUucHkgICAgICAgICMgUHJvbXB0IGNvbnN0cnVjdGlvbiBmb3IgU1FMIGFuZCBleHBsYW5hdGlvbgrilIIgICDilJzilIDilIAgbGxtX2NsaWVudC5weSAgICAgICAgICAgIyBQcm92aWRlciBhYnN0cmFjdGlvbiAoR3JvcS9CZWRyb2NrL09sbGFtYSkK4pSCICAg4pSc4pSA4pSAIHNxbF92YWxpZGF0b3IucHkgICAgICAgICMgU2FmZXR5IGxheWVyIOKAlCBibG9ja3MgRE1MIGFuZCBpbmplY3Rpb24K4pSCICAg4pSc4pSA4pSAIHF1ZXJ5X2V4ZWN1dG9yLnB5ICAgICAgICMgRHVja0RCIHdyYXBwZXIK4pSCICAg4pSc4pSA4pSAIG9yY2hlc3RyYXRvci5weSAgICAgICAgICMgTWFpbiBwaXBlbGluZSArIGdyZWV0aW5nIGhhbmRsZXIK4pSCICAg4pSU4pSA4pSAIGNoYXJ0X3NlbGVjdG9yLnB5ICAgICAgICMgQXV0byBjaGFydCB0eXBlIHNlbGVjdGlvbgrilJzilIDilIAgZGF0YS8gICAgICAgICAgICAgICAgICAgICAgICAjIE1hcnQgdGFibGVzIChDU1YpCuKUgiAgIOKUnOKUgOKUgCBkaW1fbWFjaGluZV90eXBlcy5jc3YK4pSCICAg4pSc4pSA4pSAIGZjdF9mYWlsdXJlX2V2ZW50cy5jc3YK4pSCICAg4pSc4pSA4pSAIGZjdF9mYWlsdXJlX3N1bW1hcnkuY3N2CuKUgiAgIOKUnOKUgOKUgCBmY3RfbWFjaGluZV9wZXJmb3JtYW5jZS5jc3YK4pSCICAg4pSU4pSA4pSAIGZjdF9wcmVkaWN0aXZlX2luZGljYXRvcnMuY3N2CuKUnOKUgOKUgCB0ZXN0cy8K4pSCICAg4pSc4pSA4pSAIHRlc3Rfc3FsX3ZhbGlkYXRvci5weQrilIIgICDilJzilIDilIAgdGVzdF9xdWVyeV9leGVjdXRvci5weQrilIIgICDilJzilIDilIAgdGVzdF9jaGFydF9zZWxlY3Rvci5weQrilIIgICDilJzilIDilIAgdGVzdF9nb2xkZW5fZXZhbHVhdGlvbi5weSAgIyBHb2xkZW4gZGF0YXNldCBldmFsdWF0aW9uIGZyYW1ld29yawrilIIgICDilJzilIDilIAgZ29sZGVuX2RhdGFzZXQuanNvbiAgICAgICAgIyAzNyBjdXJhdGVkIHRlc3QgY2FzZXMK4pSCICAg4pSc4pSA4pSAIHJ1bl9xdWlja19ldmFsLnB5ICAgICAgICAgICMgUXVpY2sgNS1jYXNlIGV2YWx1YXRpb24K4pSCICAg4pSU4pSA4pSAIGV2YWxfcmVzdWx0cy8gICAgICAgICAgICAgICMgRXZhbHVhdGlvbiByZXBvcnRzIChKU09OKQrilJzilIDilIAgbG9ncy8K4pSCICAg4pSU4pSA4pSAIHF1ZXJpZXMuanNvbmwgICAgICAgICAgICMgUXVlcnkgYXVkaXQgbG9nCuKUnOKUgOKUgCBkb2NzLwoK4pSCICAg4pSc4pSA4pSAIEFSQ0hJVEVDVFVSRS5tZCAgICAgICAgICMgRGV0YWlsZWQgYXJjaGl0ZWN0dXJlIGRvY3VtZW50YXRpb24K4pSCICAg4pSU4pSA4pSAIFNFTUFOVElDX0xBWUVSLm1kICAgICAgICMgU2VtYW50aWMgbGF5ZXIgZGVzaWduIGRlY2lzaW9ucwrilJzilIDilIAgYXBwLnB5ICAgICAgICAgICAgICAgICAgICAgICAgIyBTdHJlYW1saXQgYXBwbGljYXRpb24K4pSc4pSA4pSAIHJlcXVpcmVtZW50cy50eHQK4pSc4pSA4pSAIC5lbnYuZXhhbXBsZQrilJTilIDilIAgUkVBRE1FLm1kCmBgYAoKIyMg8J+TiCBDb21wb25lbnQgRG9jdW1lbnRhdGlvbgoKIyMjIE9yY2hlc3RyYXRvciAoYGNvcGlsb3Qvb3JjaGVzdHJhdG9yLnB5YCkKClRoZSBtYWluIHBpcGVsaW5lIHRoYXQgY29vcmRpbmF0ZXMgYWxsIGNvbXBvbmVudHM6CgpgYGBweXRob24KZnJvbSBjb3BpbG90Lm9yY2hlc3RyYXRvciBpbXBvcnQgQ29waWxvdAoKY29waWxvdCA9IENvcGlsb3QoKQpyZXNwb25zZSA9IGNvcGlsb3QuYW5zd2VyKCJXaGF0IGlzIHRoZSBmYWlsdXJlIHJhdGU/IikKCnByaW50KHJlc3BvbnNlLnNxbCkgICAgICAgICAgIyBHZW5lcmF0ZWQgU1FMCnByaW50KHJlc3BvbnNlLnJlc3VsdCkgICAgICAgIyBEYXRhRnJhbWUgcmVzdWx0CnByaW50KHJlc3BvbnNlLmV4cGxhbmF0aW9uKSAgIyBQbGFpbiBFbmdsaXNoIGV4cGxhbmF0aW9uCnByaW50KHJlc3BvbnNlLmNoYXJ0KSAgICAgICAgIyBQbG90bHkgZmlndXJlCnByaW50KHJlc3BvbnNlLnRva2Vuc191c2VkKSAgIyBUb2tlbiBjb3VudApgYGAKCiMjIyBTZW1hbnRpYyBMYXllciAoYGNvcGlsb3Qvc2VtYW50aWNfbGF5ZXIucHlgKQoKU3RydWN0dXJlZCBrbm93bGVkZ2UgaW5qZWN0ZWQgaW50byBldmVyeSBMTE0gcHJvbXB0OgoKYGBgcHl0aG9uCmZyb20gY29waWxvdC5zZW1hbnRpY19sYXllciBpbXBvcnQgKAogICAgZ2V0X3NjaGVtYV90ZXh0LCAgICAgICMgRnVsbCBzY2hlbWEgd2l0aCBkYXRhIHR5cGVzCiAgICBnZXRfZ2xvc3NhcnlfdGV4dCwgICAgIyBCdXNpbmVzcyB0ZXJtcyArIHN5bm9ueW1zCiAgICBnZXRfZmV3X3Nob3RfdGV4dCwgICAgIyBFeGFtcGxlIHF1ZXN0aW9uIOKGkiBTUUwgcGFpcnMKICAgIEFMTE9XRURfVEFCTEVTLCAgICAgICAjIFdoaXRlbGlzdCBmb3IgU1FMIHZhbGlkYXRpb24KKQpgYGAKCiMjIyBTUUwgVmFsaWRhdG9yIChgY29waWxvdC9zcWxfdmFsaWRhdG9yLnB5YCkKClNhZmV0eSBsYXllciB0aGF0IHZhbGlkYXRlcyBhbGwgZ2VuZXJhdGVkIFNRTDoKCmBgYHB5dGhvbgpmcm9tIGNvcGlsb3Quc3FsX3ZhbGlkYXRvciBpbXBvcnQgdmFsaWRhdGVfc3FsCgpyZXN1bHQgPSB2YWxpZGF0ZV9zcWwoIlNFTEVDVCAqIEZST00gZmN0X2ZhaWx1cmVfZXZlbnRzIikKcHJpbnQocmVzdWx0LmlzX3ZhbGlkKSAgIyBUcnVlCnByaW50KHJlc3VsdC5lcnJvcnMpICAgICMgW10KCnJlc3VsdCA9IHZhbGlkYXRlX3NxbCgiRFJPUCBUQUJMRSB1c2VycyIpCnByaW50KHJlc3VsdC5pc192YWxpZCkgICMgRmFsc2UKcHJpbnQocmVzdWx0LmVycm9ycykgICAgIyBbIkRNTC9EREwgb3BlcmF0aW9ucyBub3QgYWxsb3dlZCJdCmBgYAoKIyMjIExMTSBDbGllbnQgKGBjb3BpbG90L2xsbV9jbGllbnQucHlgKQoKRmFjdG9yeSBwYXR0ZXJuIGZvciBMTE0gcHJvdmlkZXJzOgoKYGBgcHl0aG9uCmZyb20gY29waWxvdC5sbG1fY2xpZW50IGltcG9ydCBMTE1DbGllbnRGYWN0b3J5CgojIEF1dG9tYXRpY2FsbHkgc2VsZWN0cyBiYXNlZCBvbiBMTE1fUFJPVklERVIgZW52IHZhcgpjbGllbnQgPSBMTE1DbGllbnRGYWN0b3J5LmNyZWF0ZSgpCgojIE9yIGV4cGxpY2l0bHkKZnJvbSBjb3BpbG90LmxsbV9jbGllbnQgaW1wb3J0IEdyb3FDbGllbnQKY2xpZW50ID0gR3JvcUNsaWVudChtb2RlbD0ib3BlbmFpL2dwdC1vc3MtMjBiIikKYGBgCgojIyDwn5QXIFJlbGF0ZWQgUHJvamVjdHMKClRoaXMgaXMgKipQcm9qZWN0IDIqKiBpbiBteSBwb3J0Zm9saW8gZGVtb25zdHJhdGluZyBlbmQtdG8tZW5kIGRhdGEgZW5naW5lZXJpbmc6Cgp8IFByb2plY3QgfCBEZXNjcmlwdGlvbiB8IFN0YWNrIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLS18CnwgW01hbnVmYWN0dXJpbmcgQW5hbHl0aWNzIFBsYXRmb3JtXShodHRwczovL2dpdGh1Yi5jb20vYW50aW1vaC9tYW51ZmFjdHVyaW5nLWFuYWx5dGljcy1wbGF0Zm9ybSkgfCBEYXRhIGVuZ2luZWVyaW5nIGZvdW5kYXRpb24gfCBQeXRob24sIFNub3dmbGFrZSwgZGJ0LCBTdHJlYW1saXQgfAp8ICoqTWFudWZhY3R1cmluZyBBbmFseXRpY3MgQ29waWxvdCoqICh0aGlzKSB8IE5hdHVyYWwgbGFuZ3VhZ2UgaW50ZXJmYWNlIHwgTExNLCBEdWNrREIsIFN0cmVhbWxpdCB8CgojIyDwn5OaIFJlZmVyZW5jZXMKClRoZSBzZW1hbnRpYyBsYXllciBkZXNpZ24gaXMgYmFzZWQgb24gaW5kdXN0cnkgYmVzdCBwcmFjdGljZXM6CgotIFtkYnQ6IFNlbWFudGljIExheWVyIHZzIFRleHQtdG8tU1FMIDIwMjYgQmVuY2htYXJrXShodHRwczovL2RvY3MuZ2V0ZGJ0LmNvbS9ibG9nL3NlbWFudGljLWxheWVyLXZzLXRleHQtdG8tc3FsLTIwMjYpCi0gW01lZGl1bTogQmVzdCBQcmFjdGljZXMgZm9yIExMTS1HZW5lcmF0ZWQgU1FMXShodHRwczovL21lZGl1bS5jb20vQHZpLmhhLmVuZ3IvYnJpZGdpbmctbmF0dXJhbC1sYW5ndWFnZS1hbmQtZGF0YWJhc2VzLWJlc3QtcHJhY3RpY2VzLWZvci1sbG0tZ2VuZXJhdGVkLXNxbC1mY2JhMDQ0OWQ0ZTUpCi0gW1hvbW5pYTogV2h5IFlvdXIgQUkgQWdlbnQgTmVlZHMgYSBTZW1hbnRpYyBMYXllcl0oaHR0cHM6Ly94b21uaWEuY29tL3Bvc3QvdGV4dC10by1zcWwtd2l0aC1sbG1zLXdoeS15b3VyLWFpLWFnZW50LW5lZWRzLWEtc2VtYW50aWMtbGF5ZXIvKQotIFtDb25mZXJib3Q6IENoYXRib3QgQ29udmVyc2F0aW9uIERlc2lnbl0oaHR0cHM6Ly93d3cuY29uZmVyYm90LmNvbS9ibG9nL2NoYXRib3QtY29udmVyc2F0aW9uLWRlc2lnbi1tYXN0ZXJjbGFzcykKCiMjIPCfk50gTGljZW5zZQoKTUlUIExpY2Vuc2Ug4oCUIHNlZSBbTElDRU5TRV0oTElDRU5TRSkgZm9yIGRldGFpbHMuCgojIyDwn5GkIEF1dGhvcgoKKipBbnRvbiBUaW1va2hpbioqCi0gU2VuaW9yIERhdGEgQW5hbHlzdCBhdCBBbGlnbiBUZWNobm9sb2d5Ci0gQVdTIENlcnRpZmllZCBEYXRhIEVuZ2luZWVyIOKAlCBBc3NvY2lhdGUKLSBbR2l0SHViXShodHRwczovL2dpdGh1Yi5jb20vYW50aW1vaCkgfCBbTGlua2VkSW5dKGh0dHBzOi8vbGlua2VkaW4uY29tL2luL2FudGltb2gpCgotLS0KCj4gKiJUaGUgZ29hbCBpcyBub3QgdG8gcmVwbGFjZSBTUUwg4oCUIGl0J3MgdG8gbWFrZSBkYXRhIGFjY2Vzc2libGUgdG8gZXZlcnlvbmUgd2hpbGUgbWFpbnRhaW5pbmcgdGhlIHRyYW5zcGFyZW5jeSBhbmQgYXVkaXRhYmlsaXR5IHRoYXQgZGF0YSBwcm9mZXNzaW9uYWxzIHJlcXVpcmUuIioK
+<div align="center">
+
+# 🏭 Manufacturing Analytics Copilot
+
+**Ask questions about manufacturing data in plain English — no SQL required**
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://mfg-analytics-copilot.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-85%2B_Passing-success?style=for-the-badge)](tests/)
+
+<br/>
+
+<img src="https://img.shields.io/badge/LLM-Groq_API-orange?style=flat-square" alt="Groq">
+<img src="https://img.shields.io/badge/Database-DuckDB-FFF000?style=flat-square" alt="DuckDB">
+<img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?style=flat-square" alt="Streamlit">
+<img src="https://img.shields.io/badge/Charts-Plotly-3F4F75?style=flat-square" alt="Plotly">
+
+</div>
+
+---
+
+## 🎯 What is this?
+
+A **natural language interface** for querying manufacturing sensor data. Plant engineers can ask questions like:
+
+> *"What is the overall machine failure rate?"*  
+> *"Which machine type fails most often?"*  
+> *"How many machines need immediate maintenance?"*
+
+The system converts questions to SQL, validates for safety, executes against DuckDB, and returns results with **auto-generated visualizations**.
+
+<br/>
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🗣️ **Natural Language Queries** | Ask questions in plain English — the LLM handles SQL generation |
+| 🛡️ **SQL Safety Validation** | Blocks DML operations, injection attempts, and unknown tables |
+| 📊 **Auto Chart Selection** | Automatically picks the best visualization (metric card, bar, scatter, table) |
+| 💬 **Smart Greeting Handler** | Responds to "hi" and "help" instantly without LLM calls |
+| 📖 **Semantic Layer** | Business glossary + schema definitions + few-shot examples for accurate SQL |
+| 🔌 **Multi-Provider LLM** | Supports Groq, AWS Bedrock, and Ollama via factory pattern |
+
+<br/>
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.10+
+- [Groq API Key](https://console.groq.com/keys) (free tier available)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/antimoh/manufacturing-analytics-copilot.git
+cd manufacturing-analytics-copilot
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+# Edit .env and add: GROQ_API_KEY=your_key_here
+
+# Run the app
+streamlit run app.py
+```
+
+Open http://localhost:8501 in your browser.
+
+<br/>
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      User Question                          │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Greeting Handler    →  Instant response (0 tokens)        │
+├─────────────────────────────────────────────────────────────┤
+│  Semantic Layer      →  Schema + Glossary + Examples       │
+├─────────────────────────────────────────────────────────────┤
+│  Prompt Engine       →  Constructs SQL generation prompt   │
+├─────────────────────────────────────────────────────────────┤
+│  LLM Client          →  Groq / Bedrock / Ollama            │
+├─────────────────────────────────────────────────────────────┤
+│  SQL Validator       →  Blocks DML & injection attacks     │
+├─────────────────────────────────────────────────────────────┤
+│  Query Executor      →  DuckDB execution                   │
+├─────────────────────────────────────────────────────────────┤
+│  Chart Selector      →  Auto-selects visualization         │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│            Response: Explanation + Chart + SQL              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Design Principles
+
+1. **Data engineering first** — LLM sits on a well-modeled semantic layer, not raw tables
+2. **Transparency by default** — Always show generated SQL alongside the answer
+3. **Fail safely** — Gracefully reject bad SQL from the LLM
+4. **Scope enforcement** — Only answer questions about available data
+5. **No LangChain** — Custom orchestration for full transparency and testability
+
+<br/>
+
+## 📊 Data Source
+
+Built on the [UCI AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset):
+
+| Metric | Value |
+|--------|-------|
+| Sensor readings | 10,000 |
+| Machine failures | 339 (3.39%) |
+| Machine types | 3 (H, M, L) |
+| Failure modes | 5 types |
+
+### Failure Types
+
+| Code | Name | Description |
+|------|------|-------------|
+| **HDF** | Heat Dissipation Failure | Temperature differential issues |
+| **OSF** | Overstrain Failure | Torque × tool wear exceeds threshold |
+| **PWF** | Power Failure | Power outside 3500W–9000W range |
+| **TWF** | Tool Wear Failure | Tool wear > 200-240 min |
+| **RNF** | Random Failure | 0.1% baseline probability |
+
+<br/>
+
+## 🛡️ SQL Safety
+
+The validator protects against:
+
+- ✅ DML operations (INSERT, UPDATE, DELETE, DROP)
+- ✅ SQL injection (comments, UNION, stacked queries)
+- ✅ Unknown table references
+- ✅ Timing attacks (SLEEP, BENCHMARK)
+- ✅ File system access (INTO OUTFILE, LOAD_FILE)
+
+**Only SELECT queries against 5 allowed tables are permitted.**
+
+<br/>
+
+## 🧪 Testing
+
+```bash
+# Run all 85+ tests
+pytest tests/ -v
+
+# Run with coverage
+pytest tests/ --cov=copilot --cov-report=html
+
+# Run golden dataset evaluation (37 test cases)
+python tests/test_golden_evaluation.py
+```
+
+### Test Coverage
+
+| Test File | Tests | Coverage |
+|-----------|-------|----------|
+| `test_sql_validator.py` | 43 | DML blocking, injection prevention |
+| `test_query_executor.py` | 22 | Known values, edge cases |
+| `test_chart_selector.py` | 20 | Type inference, truncation |
+
+<br/>
+
+## ⚙️ Configuration
+
+```bash
+# Required
+GROQ_API_KEY=gsk_...              # Get from console.groq.com/keys
+
+# Optional
+LLM_PROVIDER=groq                 # groq | bedrock | ollama
+GROQ_MODEL=openai/gpt-oss-20b    # Override default model
+```
+
+<br/>
+
+## 📁 Project Structure
+
+```
+manufacturing-analytics-copilot/
+├── copilot/                 # Core library
+│   ├── semantic_layer.py    # Schema + glossary + examples
+│   ├── prompt_engine.py     # Prompt construction
+│   ├── llm_client.py        # LLM provider abstraction
+│   ├── sql_validator.py     # Safety validation
+│   ├── query_executor.py    # DuckDB wrapper
+│   ├── orchestrator.py      # Main pipeline
+│   └── chart_selector.py    # Auto chart selection
+├── data/                    # CSV data files
+├── tests/                   # Test suite
+├── docs/                    # Documentation
+├── app.py                   # Streamlit app
+└── requirements.txt
+```
+
+<br/>
+
+## 🔗 Related Projects
+
+This is **Project 2** in my data engineering portfolio:
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [Manufacturing Analytics Platform](https://github.com/antimoh/manufacturing-analytics-platform) | Data engineering foundation | Python, Snowflake, dbt |
+| **Manufacturing Analytics Copilot** | Natural language interface | LLM, DuckDB, Streamlit |
+
+<br/>
+
+## 📚 References
+
+- [dbt: Semantic Layer vs Text-to-SQL](https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026)
+- [Best Practices for LLM-Generated SQL](https://medium.com/@vi.ha.engr/bridging-natural-language-and-databases-best-practices-for-llm-generated-sql-fcba0449d4e5)
+- [Why Your AI Agent Needs a Semantic Layer](https://xomnia.com/post/text-to-sql-with-llms-why-your-ai-agent-needs-a-semantic-layer/)
+
+<br/>
+
+## 📝 License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+<br/>
+
+## 👤 Author
+
+**Anton Timokhin**  
+Senior Data Analyst at Align Technology  
+AWS Certified Data Engineer — Associate
+
+[![GitHub](https://img.shields.io/badge/GitHub-antimoh-181717?style=flat-square&logo=github)](https://github.com/antimoh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-antimoh-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/antimoh)
+
+---
+
+<div align="center">
+
+*"Making data accessible to everyone while maintaining the transparency that data professionals require."*
+
+</div>
