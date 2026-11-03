@@ -1,0 +1,16 @@
+summary_key,machine_type,machine_type_description,primary_failure_type,event_count,avg_risk_score,avg_temp_differential_k,avg_power_watts,avg_torque_nm,avg_tool_wear_minutes,normal_temp_count,elevated_temp_count,critical_temp_count,low_wear_count,moderate_wear_count,high_wear_count,critical_wear_count,hdf_conditions_count,pwf_conditions_count,twf_conditions_count,osf_conditions_count,dbt_updated_at
+2940ad3dcb580897838bd235f314fba8,L,Low Quality,Power Failure,57,2.51,10.04,7054.0,47.02,100,27,30,0,29,20,8,0,0,57,4,8,2026-10-30 09:32:06.862000-07:00
+5df465011e11275cdf16dadca4f51b94,L,Low Quality,Tool Wear Failure,25,1.68,9.86,5854.0,36.52,215,10,15,0,0,0,18,7,0,0,25,0,2026-10-30 09:32:06.862000-07:00
+626a0d1d0089a4fdd20156ccc0a9d158,L,Low Quality,Overstrain Failure,73,3.41,10.21,8016.0,56.6,208,36,37,0,0,1,59,13,0,0,54,73,2026-10-30 09:32:06.862000-07:00
+a50fd2b53655c26ea7024ecc3f78488c,M,Medium Quality,Power Failure,30,2.53,9.79,7266.0,48.14,98,12,18,0,16,10,3,1,0,30,3,3,2026-10-30 09:32:06.862000-07:00
+4dc66fa77938ca24c9f3bfd86c195ada,H,High Quality,Tool Wear Failure,7,1.86,9.51,6782.0,44.54,219,5,2,0,0,0,4,3,0,1,6,1,2026-10-30 09:32:06.862000-07:00
+14487fb3500cea657f08450aceb557cd,H,High Quality,Power Failure,4,2.0,9.77,7926.0,54.13,125,3,1,0,1,3,0,0,0,4,0,0,2026-10-30 09:32:06.862000-07:00
+3ccdd9f42e58c42405435fa49d86a983,H,High Quality,Unknown Failure,1,0.0,11.1,6811.0,45.2,40,1,0,0,1,0,0,0,0,0,0,0,2026-10-30 09:32:06.862000-07:00
+2d422b1ed60954fe5ba47276c89fd1e9,M,Medium Quality,Tool Wear Failure,14,1.86,10.06,5933.0,36.84,218,6,8,0,0,0,8,6,0,0,12,2,2026-10-30 09:32:06.862000-07:00
+47b336b9fadcc8cdd29db6cf00f5ce42,M,Medium Quality,Overstrain Failure,4,3.75,9.85,8554.0,62.78,201,1,3,0,0,0,4,0,0,0,3,4,2026-10-30 09:32:06.862000-07:00
+6c76678e171cac262574422bf6a6dbd7,H,High Quality,Overstrain Failure,1,4.0,9.6,7949.0,53.8,246,0,1,0,0,0,0,1,0,0,0,1,2026-10-30 09:32:06.862000-07:00
+135c30d00d13753175aaf36b896886d9,L,Low Quality,Unknown Failure,4,0.75,10.38,6177.0,38.65,149,3,1,0,1,2,1,0,0,0,1,0,2026-10-30 09:32:06.862000-07:00
+cf936ba69af6af1d05045ce48cc96515,M,Medium Quality,Unknown Failure,4,1.0,9.05,6640.0,43.85,105,1,3,0,1,3,0,0,0,0,0,0,2026-10-30 09:32:06.862000-07:00
+daf1f44a9c144d8c6be782803ab10ffe,M,Medium Quality,Heat Dissipation Failure,31,1.74,8.22,7335.0,52.18,113,3,28,0,12,13,6,0,31,1,4,0,2026-10-30 09:32:06.862000-07:00
+b4e4df25cf23365e3b24e483d97ad874,L,Low Quality,Heat Dissipation Failure,76,1.91,8.23,7453.0,53.36,107,5,71,0,39,24,10,3,76,2,7,6,2026-10-30 09:32:06.862000-07:00
+64f5aefdd9fa083065afc54b01a377e1,H,High Quality,Heat Dissipation Failure,8,1.75,8.25,7627.0,55.14,88,1,7,0,3,5,0,0,8,0,0,0,2026-10-30 09:32:06.862000-07:00

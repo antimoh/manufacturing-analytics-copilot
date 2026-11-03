@@ -1,0 +1,4 @@
+machine_type_key,machine_type,machine_type_description,total_readings,total_failures,failure_rate_pct,tool_wear_failures,heat_dissipation_failures,power_failures,overstrain_failures,random_failures,avg_air_temperature_k,avg_process_temperature_k,avg_temperature_differential_k,avg_rotational_speed_rpm,avg_torque_nm,avg_tool_wear_minutes,avg_power_watts,min_tool_wear_minutes,max_tool_wear_minutes,overstrain_threshold
+69691c7bdcc3ce6d5d8a1361f22d04ac,M,Medium Quality,2997,83,2.77,14,31,31,9,2,300.03,310.02,9.99,1538,40.02,107,6279.0,0,253,12000
+d20caec3b48a1eef164cb4ca81ba2587,L,Low Quality,6000,235,3.92,25,76,59,87,13,300.02,310.01,10.0,1539,40.0,108,6283.0,0,251,11000
+c1d9f50f86825a1a2302ec2449c17196,H,High Quality,1003,21,2.09,7,8,5,2,4,299.87,309.93,10.06,1538,39.84,107,6264.0,0,246,13000
