@@ -1,0 +1,355 @@
+{
+  "version": "1.0",
+  "description": "Golden dataset for Manufacturing Analytics Copilot text-to-SQL evaluation",
+  "created": "2026-11-03",
+  "test_cases": [
+    {
+      "id": "dataset_001",
+      "question": "How large is the dataset?",
+      "expected_value": 10000,
+      "value_type": "exact",
+      "category": "dataset_overview",
+      "difficulty": "easy",
+      "notes": "Should query fct_failure_events COUNT(*)"
+    },
+    {
+      "id": "dataset_002",
+      "question": "How many records are there?",
+      "expected_value": 10000,
+      "value_type": "exact",
+      "category": "dataset_overview",
+      "difficulty": "easy",
+      "notes": "Synonym test for dataset size"
+    },
+    {
+      "id": "dataset_003",
+      "question": "How many sensor readings are in the data?",
+      "expected_value": 10000,
+      "value_type": "exact",
+      "category": "dataset_overview",
+      "difficulty": "easy",
+      "notes": "Another synonym for dataset size"
+    },
+    {
+      "id": "failure_001",
+      "question": "How many failures are there?",
+      "expected_value": 339,
+      "value_type": "exact",
+      "category": "basic_count",
+      "difficulty": "easy",
+      "notes": "Core metric - total machine failures"
+    },
+    {
+      "id": "failure_002",
+      "question": "How many machine failures occurred?",
+      "expected_value": 339,
+      "value_type": "exact",
+      "category": "basic_count",
+      "difficulty": "easy",
+      "notes": "Synonym test"
+    },
+    {
+      "id": "failure_003",
+      "question": "How many breakdowns are there?",
+      "expected_value": 339,
+      "value_type": "exact",
+      "category": "basic_count",
+      "difficulty": "medium",
+      "notes": "Glossary synonym test - breakdown = failure"
+    },
+    {
+      "id": "failure_004",
+      "question": "What is the overall failure rate?",
+      "expected_value": 3.39,
+      "value_type": "approximate",
+      "tolerance": 0.1,
+      "category": "basic_aggregation",
+      "difficulty": "easy",
+      "notes": "339/10000 * 100 = 3.39%"
+    },
+    {
+      "id": "failure_005",
+      "question": "What percentage of machines failed?",
+      "expected_value": 3.39,
+      "value_type": "approximate",
+      "tolerance": 0.1,
+      "category": "basic_aggregation",
+      "difficulty": "easy",
+      "notes": "Same as failure rate"
+    },
+    {
+      "id": "machine_type_001",
+      "question": "How many machine types are there?",
+      "expected_value": 3,
+      "value_type": "exact",
+      "category": "basic_count",
+      "difficulty": "easy",
+      "notes": "H, M, L"
+    },
+    {
+      "id": "machine_type_002",
+      "question": "Which machine type has the highest failure rate?",
+      "expected_value": "L",
+      "value_type": "contains",
+      "category": "comparison",
+      "difficulty": "medium",
+      "notes": "L (Low Quality) at 3.92%"
+    },
+    {
+      "id": "machine_type_003",
+      "question": "Which machine type fails most often?",
+      "expected_value": "L",
+      "value_type": "contains",
+      "category": "comparison",
+      "difficulty": "medium",
+      "notes": "Same as above, different wording"
+    },
+    {
+      "id": "machine_type_004",
+      "question": "What is the failure rate for high quality machines?",
+      "expected_value": 2.09,
+      "value_type": "approximate",
+      "tolerance": 0.1,
+      "category": "filtered_aggregation",
+      "difficulty": "medium",
+      "notes": "H type = 2.09%"
+    },
+    {
+      "id": "machine_type_005",
+      "question": "How many low quality machine readings are there?",
+      "expected_value": 6000,
+      "value_type": "exact",
+      "category": "filtered_count",
+      "difficulty": "easy",
+      "notes": "L type count"
+    },
+    {
+      "id": "machine_type_006",
+      "question": "How many failures occurred in medium quality machines?",
+      "expected_value": 83,
+      "value_type": "exact",
+      "category": "filtered_count",
+      "difficulty": "medium",
+      "notes": "M type failures"
+    },
+    {
+      "id": "failure_mode_001",
+      "question": "How many heat dissipation failures are there?",
+      "expected_value": 115,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "HDF count"
+    },
+    {
+      "id": "failure_mode_002",
+      "question": "How many HDF failures occurred?",
+      "expected_value": 115,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "Abbreviation test"
+    },
+    {
+      "id": "failure_mode_003",
+      "question": "How many power failures are there?",
+      "expected_value": 95,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "PWF count"
+    },
+    {
+      "id": "failure_mode_004",
+      "question": "How many overstrain failures occurred?",
+      "expected_value": 98,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "OSF count"
+    },
+    {
+      "id": "failure_mode_005",
+      "question": "How many tool wear failures are there?",
+      "expected_value": 46,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "TWF count"
+    },
+    {
+      "id": "failure_mode_006",
+      "question": "How many random failures occurred?",
+      "expected_value": 19,
+      "value_type": "exact",
+      "category": "failure_mode",
+      "difficulty": "medium",
+      "notes": "RNF count"
+    },
+    {
+      "id": "failure_mode_007",
+      "question": "What is the most common failure type?",
+      "expected_value": "Heat Dissipation",
+      "value_type": "contains",
+      "category": "comparison",
+      "difficulty": "medium",
+      "notes": "HDF at 115 cases"
+    },
+    {
+      "id": "maintenance_001",
+      "question": "How many machines need immediate maintenance?",
+      "expected_value": 220,
+      "value_type": "approximate",
+      "tolerance": 10,
+      "category": "maintenance",
+      "difficulty": "medium",
+      "notes": "maintenance_priority = 'IMMEDIATE'"
+    },
+    {
+      "id": "maintenance_002",
+      "question": "How many machines have urgent maintenance priority?",
+      "expected_value": 788,
+      "value_type": "approximate",
+      "tolerance": 20,
+      "category": "maintenance",
+      "difficulty": "medium",
+      "notes": "maintenance_priority = 'URGENT'"
+    },
+    {
+      "id": "maintenance_003",
+      "question": "How many machines are in normal operation?",
+      "expected_value": 7860,
+      "value_type": "approximate",
+      "tolerance": 50,
+      "category": "maintenance",
+      "difficulty": "medium",
+      "notes": "maintenance_priority = 'NORMAL'"
+    },
+    {
+      "id": "risk_001",
+      "question": "How many high risk machines are there?",
+      "expected_value": 281,
+      "value_type": "approximate",
+      "tolerance": 20,
+      "category": "risk",
+      "difficulty": "medium",
+      "notes": "risk_level = 'High'"
+    },
+    {
+      "id": "risk_002",
+      "question": "What is the failure rate for high risk machines?",
+      "expected_value": 47,
+      "value_type": "approximate",
+      "tolerance": 5,
+      "category": "risk",
+      "difficulty": "hard",
+      "notes": "~47% failure rate for High risk level"
+    },
+    {
+      "id": "sensor_001",
+      "question": "What is the average torque?",
+      "expected_value": 40,
+      "value_type": "approximate",
+      "tolerance": 2,
+      "category": "sensor_stats",
+      "difficulty": "easy",
+      "notes": "Mean torque ~40 Nm"
+    },
+    {
+      "id": "sensor_002",
+      "question": "What is the average rotational speed?",
+      "expected_value": 1538,
+      "value_type": "approximate",
+      "tolerance": 50,
+      "category": "sensor_stats",
+      "difficulty": "easy",
+      "notes": "Mean RPM ~1538"
+    },
+    {
+      "id": "sensor_003",
+      "question": "What is the maximum tool wear?",
+      "expected_value": 253,
+      "value_type": "approximate",
+      "tolerance": 5,
+      "category": "sensor_stats",
+      "difficulty": "easy",
+      "notes": "Max tool wear ~253 minutes"
+    },
+    {
+      "id": "sensor_004",
+      "question": "What is the average air temperature?",
+      "expected_value": 300,
+      "value_type": "approximate",
+      "tolerance": 2,
+      "category": "sensor_stats",
+      "difficulty": "easy",
+      "notes": "Mean air temp ~300K"
+    },
+    {
+      "id": "sensor_005",
+      "question": "What is the average power consumption?",
+      "expected_value": 6280,
+      "value_type": "approximate",
+      "tolerance": 200,
+      "category": "sensor_stats",
+      "difficulty": "easy",
+      "notes": "Mean power ~6280W"
+    },
+    {
+      "id": "comparison_001",
+      "question": "What is the average torque for failed machines?",
+      "expected_value": 50,
+      "value_type": "approximate",
+      "tolerance": 5,
+      "category": "comparison",
+      "difficulty": "hard",
+      "notes": "Higher torque correlates with failure"
+    },
+    {
+      "id": "comparison_002",
+      "question": "What is the average tool wear for failed machines?",
+      "expected_value": 144,
+      "value_type": "approximate",
+      "tolerance": 20,
+      "category": "comparison",
+      "difficulty": "hard",
+      "notes": "Higher tool wear correlates with failure"
+    },
+    {
+      "id": "greeting_001",
+      "question": "hi",
+      "expected_value": "GREETING",
+      "value_type": "greeting",
+      "category": "greeting",
+      "difficulty": "easy",
+      "notes": "Should return friendly greeting without SQL"
+    },
+    {
+      "id": "greeting_002",
+      "question": "hello, what can you do?",
+      "expected_value": "GREETING",
+      "value_type": "greeting",
+      "category": "greeting",
+      "difficulty": "easy",
+      "notes": "Should return capability description"
+    },
+    {
+      "id": "refusal_001",
+      "question": "What will the failure rate be next month?",
+      "expected_value": "REFUSAL",
+      "value_type": "refusal",
+      "category": "should_refuse",
+      "difficulty": "medium",
+      "notes": "Future prediction - should refuse"
+    },
+    {
+      "id": "refusal_002",
+      "question": "Why do machines fail?",
+      "expected_value": "REFUSAL",
+      "value_type": "refusal",
+      "category": "should_refuse",
+      "difficulty": "medium",
+      "notes": "Causal reasoning - should refuse or provide data-based answer"
+    }
+  ]
+}
