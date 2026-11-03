@@ -1,0 +1,20 @@
+# Manufacturing Analytics Copilot - Dependencies
+
+# Core
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.18.0
+
+# Database
+duckdb>=0.9.0
+
+# LLM Providers
+groq>=0.4.0
+boto3>=1.28.0
+ollama>=0.1.0
+
+# Testing
+pytest>=7.4.0
+
+# Development
+python-dotenv>=1.0.0
